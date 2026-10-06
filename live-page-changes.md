@@ -90,6 +90,8 @@
 
    > Year-end strikes me as an appropriate time to discuss market conditions and investment strategies. That might mean leaving them where they are through year-end and beyond or not. It might mean shifting the balance between income and growth. Which one depends entirely on your circumstances, and this complimentary conversation with me could help widen your perspective.
 
+3. **Hint (grammar/clarity):** "leaving them where they are through year-end and beyond or not" has no clear noun for "them", because the earlier sentence about "allocations" was removed. "beyond or not" also reads awkwardly. Consider: "That might mean leaving your allocations where they are through year-end and beyond, or it might not."
+
 ### 7.3. Sign-up paragraph
 
 1. **Before:**
@@ -116,7 +118,7 @@
 
    > YES! I want a complimentary and confidential Year-End & 2027 Investment **stratagy conversation** with Bryan **Perry.**
 
-3. **Note:** "stratagy" is a typo for "strategy".
+3. **Hint (spelling):** "stratagy" should be "strategy". This is the only obvious spelling mistake I found in the new text.
 
 ## 10. Consent text under the form fields
 
@@ -145,9 +147,16 @@
    3. > **Investments in specific sectors or themes, including artificial intelligence, space, defense, and cybersecurity, may be subject to heightened volatility, concentration risk, valuation risk, rapid technological change, and regulatory risk, and are not suitable for all investors.**
    4. > **Eagle Publishing is not an investment advisory client of Mint, does not recommend or endorse Mint, and is paid for advertising placement rather than for referrals.**
 4. **One sentence rewritten:**
-   1. **Before:** > ~~On occasion, Mint will compensate Eagle Publishing to advertise Mint’s investment advisory services to Eagle Publishing’s newsletter subscribers.~~
-   2. **After:** > **Mint compensates Eagle Publishing to advertise Mint’s investment advisory services to Eagle Publishing’s newsletter subscribers, including this advertisement.**
+   1. **Before:**
+
+      > ~~On occasion, Mint will compensate Eagle Publishing to advertise Mint’s investment advisory services to Eagle Publishing’s newsletter subscribers.~~
+   2. **After:**
+
+      > **Mint compensates Eagle Publishing to advertise Mint’s investment advisory services to Eagle Publishing’s newsletter subscribers, including this advertisement.**
 5. **Spacing and punctuation:**
    1. "Newsletter Publishers”~~)~~ Newsletters authored by Mr. Perry…" now reads "Newsletter Publishers”**).** Newsletters authored by Mr. Perry…" (a full stop was added).
    2. "marketing efforts.~~No~~" now has a space: "marketing efforts. **No** graph, chart, formula…".
 6. **Paragraph structure:** the "Dividend payments are not guaranteed…" text, which used to be its own paragraph, now continues the "It should not be assumed…" paragraph. That is why two line breaks disappeared.
+7. **Hint (consistency, already in the old text):** the section uses "registered investment advisor" (Newsletter Publishers sentence) next to "advisory" and "adviserinfo.sec.gov". The SEC spells the term "adviser". Consider "registered investment adviser" to match the SEC site.
+8. **Hint (grammar, already in the old text):** "Any questions concerning the newsletters, subscriptions, including any newsletter advertising…" reads awkwardly. Consider "Any questions concerning the newsletters or their subscriptions, including any newsletter advertising…".
+9. **Hint (style, optional):** "Fixed-income securities (i.e., bonds)" would usually be "(e.g., bonds)" because bonds are one example, not the whole category.
