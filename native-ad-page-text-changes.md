@@ -3,7 +3,7 @@
 **Requested by:** the client (email signed "Jeff").  
 **Based on:** the 2026 Year-End promo page. The test page `paps-clean` currently matches it word for word.  
 **Plan:** build it first as the test page, then duplicate it as a new page on the main site.  
-**Status:** changes recorded only. Nothing has been applied yet.
+**Status:** all five text changes and the page name were applied on the test page on 22 Oct 2026 and published to the test site only (not the main site).
 
 ---
 
@@ -59,17 +59,16 @@
 
 ## C. "Year-End" references the client did not list
 
-After the five changes above, these still mention "Year-End". Decide whether they should change too, because the client wants all references removed.
-
-1. **Page title and meta text:** "2026 Year-End Promo".
-2. **Page address (slug) and folder:** the page lives under `/promo/2026/year-end/`. The new page needs its own address.
-3. **Anything else the new link code or description needs** (see section D).
+1. **Page title and SEO title:** changed from "2026 Year-End Promo" to "Native Promo" (decided).
+2. **Page name:** changed from "PAPS Clean" to "Native Promo".
+3. **Page address (slug) and folder:** still `/promo/2026/year-end/paps-clean` on purpose. The address will be set by the folder where the pages are placed on the main site.
+4. **Body text:** the published page now has no "Year-End" wording.
 
 ---
 
-## D. Open questions
+## D. Decisions and open questions
 
-1. The new link code, and the exact wording of the link's description including "native".
-2. The new page name and address.
-3. The alignment of the second heading (see item 2 in section B).
-4. Whether the page title and meta text should drop "Year-End" (see section C).
+1. **Link code and link description (including "native"):** the client will provide these later.
+2. **Page name and address:** the name is "Native Promo". The address stays as it is for now (see section C).
+3. **Second heading alignment:** centered, as decided.
+4. **Page title and meta text:** both now read "Native Promo".
