@@ -32,10 +32,12 @@
 1. **Logo and author photo on the test page:** local assets, as you asked.
 2. **On the live page:** its own logo file, and an author photo hosted on Google.
 
-## 4. Bot protection
+## 4. Bot protection (corrected 23 Oct 2026)
 
-1. **Live page:** the form has the Cloudflare Turnstile field.
-2. **Test page:** the form has none yet.
+1. **No difference.** Cloudflare Turnstile is a site-level setting, so every Webflow form on the site carries the same site key.
+2. **Checked on 23 Oct 2026:** 51 published promo pages. Every page with a form, including the test page and the new `paps-native` page, has the key on its `<form>` tag.
+3. **Why this was listed before:** the saved copy of the live page had been captured after the widget loaded, so it looked different. That was a capture difference, not a missing setting.
+4. **Not checked:** the visible widget, because Webflow's script adds it at page load. A real test submission on `paps-native` worked.
 
 ## 5. Head scripts
 
@@ -45,7 +47,7 @@
 ## 6. Extra elements on the test page (kept on purpose)
 
 1. **Two plain `div` wrappers:** Webflow adds one around each code embed.
-   1. One holds the map animation keyframes and the reduced-motion rules. Removing it would stop the map animation.
+   1. One holds the reduced-motion rule for the form button. The map animation keyframes were removed on 23 Oct 2026, when the map became the site's world map image.
    2. One holds the disclosure paragraph with its line breaks. Removing it would mean rebuilding the disclosures.
 2. **A `span`** around the last line of the author role ("Bryan Perry's Private Clients"). It is the only way to put text after the line break with the available tools, and removing it would delete that line.
 3. None of them has a visual effect or a validation problem, so they are left in place.
