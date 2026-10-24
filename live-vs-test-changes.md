@@ -55,13 +55,13 @@
 3. **A `span`** around the last line of the author role ("Bryan Perry's Private Clients"). It is the only way to put text after the line break with the available tools, and removing it would delete that line.
 4. None of them has a visual effect or a validation problem, so they are left in place.
 
-## 7. Edits to the previous promo (24 Oct 2026, draft until published)
+## 7. Edits to the previous promo (24 Oct 2026, published 14:00 UTC)
 
 1. **Where:** the shared component "Promo: 2026 Year-End", used by all five variations (paps, peps, pafas, parw, pasi). One edit covers all five.
 2. **Author photo:** both the link and the image now point to our hosted image instead of the Google-hosted one.
 3. **Stray Turnstile input:** the `cf-turnstile-response` hidden input is removed. It was copied into the page's code from a rendered page and did nothing.
 4. **Leftover Turnstile iframe:** the `<template>` that held an invisible Cloudflare iframe, and the three empty `div` wrappers around it, are removed as well. Webflow's own Turnstile setup on the form (the site key on the `<form>` tag) is unchanged.
-5. **Check after publishing:** compare the published HTML with the 11:30 UTC copy. Only the photo links, the removed input and the removed Turnstile wrapper should differ.
+5. **Checked after publishing (24 Oct 2026):** all five variations were compared with their 11:30 UTC copies. The HTML differs only by the photo links, the removed input and the removed Turnstile wrapper (17 changed lines on each page). The new stylesheet differs only in a few unrelated layout rules for the native page. Renders at 1440, 1024, 768 and 390px are pixel-identical to the old page once the same photo is used.
 
 ## 8. Added after the comparison (24 Oct 2026)
 
