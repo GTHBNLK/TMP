@@ -2,9 +2,11 @@
 
 **Live (original):** `www.mintassetmanagement.com/promo/2026/year-end/paps`, published 13 Oct 2026, 13:01 UTC.  
 **Test:** `/promo/2026/year-end/paps-clean` on the test site, published 22 Oct 2026, 10:02 UTC.  
-**Checked on:** 22 Oct 2026.
+**Checked on:** 22 Oct 2026. Sections 4 and 6 were updated on 24 Oct 2026. The rest was last checked on 22 Oct.
 
-**Everything not listed here matches.** All 35 text blocks, including the disclosures, are identical on both pages.
+**Everything not listed here matches,** except the five client text changes recorded in `native-ad-page-text-changes.md`. On 22 Oct all 35 text blocks, including the disclosures, were identical before those changes.
+
+**Main-site copy:** the page "PAPS-Native" (`/promo/2026/paps-native`) was published on 23 Oct 2026 behind the temporary password. Its form already has the final name "Order Form New", the field names and the placeholders, so section 1 applies only to the test page.
 
 ---
 
@@ -46,8 +48,15 @@
 
 ## 6. Extra elements on the test page (kept on purpose)
 
-1. **Two plain `div` wrappers:** Webflow adds one around each code embed.
-   1. One holds the reduced-motion rule for the form button. The map animation keyframes were removed on 23 Oct 2026, when the map became the site's world map image.
-   2. One holds the disclosure paragraph with its line breaks. Removing it would mean rebuilding the disclosures.
-2. **A `span`** around the last line of the author role ("Bryan Perry's Private Clients"). It is the only way to put text after the line break with the available tools, and removing it would delete that line.
-3. None of them has a visual effect or a validation problem, so they are left in place.
+1. **Removed on 23-24 Oct 2026:**
+   1. The map animation keyframes, when the map became the site's world map image.
+   2. The reduced-motion embed for the form button, on both sites. The button's hover only changes the text colour, and the transition covers background and border colour, so the rule had no visible effect.
+2. **A plain `div` wrapper:** Webflow adds one around the disclosures code embed. It will go when the disclosures are rebuilt as normal elements (planned).
+3. **A `span`** around the last line of the author role ("Bryan Perry's Private Clients"). It is the only way to put text after the line break with the available tools, and removing it would delete that line.
+4. None of them has a visual effect or a validation problem, so they are left in place.
+
+## 7. Added after the comparison (24 Oct 2026)
+
+1. **Map background:** the native page uses the site's `world-map-background` class plus a `claude-map-y28` combo (multiply blend, scrolling instead of fixed at tablet width and below). The live page has no map layer of this kind.
+2. **Hero and content card:** their backgrounds are `#ffffffcc` and `#ffffffdd`, so the map shows through softly.
+3. **Form block:** the form uses `contact_form` + `claude-form-body` (one column, flexbox) and inputs with `claude-form-input`. Barlow is not set on the inputs because they inherit it from the body.

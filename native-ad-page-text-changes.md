@@ -3,7 +3,10 @@
 **Requested by:** the client (email signed "Jeff").  
 **Based on:** the 2026 Year-End promo page. The test page `paps-clean` currently matches it word for word.  
 **Plan:** build it first as the test page, then duplicate it as a new page on the main site.  
-**Status:** all five text changes and the page name were applied on the test page on 22 Oct 2026 and published to the test site only (not the main site).
+**Status (24 Oct 2026):**
+1. All five text changes and the page name were applied on the test page on 22 Oct 2026.
+2. The page was then copied to the main site as "PAPS-Native" (`/promo/2026/paps-native`, title "Native Promo"). It was published on 23 Oct 2026 and is still behind the temporary password.
+3. A test form submission on the main-site page worked.
 
 ---
 
@@ -61,14 +64,14 @@
 
 1. **Page title and SEO title:** changed from "2026 Year-End Promo" to "Native Promo" (decided).
 2. **Page name:** changed from "PAPS Clean" to "Native Promo".
-3. **Page address (slug) and folder:** still `/promo/2026/year-end/paps-clean` on purpose. The address will be set by the folder where the pages are placed on the main site.
+3. **Page address (slug) and folder:** the test page keeps `/promo/2026/year-end/paps-clean`. On the main site the address follows the folder: `/promo/2026/paps-native`.
 4. **Body text:** the published page now has no "Year-End" wording.
 
 ---
 
 ## D. Decisions and open questions
 
-1. **Link code and link description (including "native"):** the client will provide these later.
-2. **Page name and address:** the name is "Native Promo". The address stays as it is for now (see section C).
+1. **Link code and link description (including "native"):** the client will provide these later. Still open.
+2. **Page name and address:** the name is "Native Promo". The main-site address is `/promo/2026/paps-native` (see section C).
 3. **Second heading alignment:** centered, as decided.
 4. **Page title and meta text:** both now read "Native Promo".
