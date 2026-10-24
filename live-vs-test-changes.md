@@ -60,8 +60,8 @@
 1. **Where:** the shared component "Promo: 2026 Year-End", used by all five variations (paps, peps, pafas, parw, pasi). One edit covers all five.
 2. **Author photo:** both the link and the image now point to our hosted image instead of the Google-hosted one.
 3. **Stray Turnstile input:** the `cf-turnstile-response` hidden input is removed. It was copied into the page's code from a rendered page and did nothing.
-4. **Not touched:** the empty `<template>` that holds a leftover Turnstile iframe stays. Webflow's own Turnstile setup on the form is unchanged.
-5. **Check after publishing:** compare the published HTML with the 11:30 UTC copy. Only these two changes should differ.
+4. **Leftover Turnstile iframe:** the `<template>` that held an invisible Cloudflare iframe, and the three empty `div` wrappers around it, are removed as well. Webflow's own Turnstile setup on the form (the site key on the `<form>` tag) is unchanged.
+5. **Check after publishing:** compare the published HTML with the 11:30 UTC copy. Only the photo links, the removed input and the removed Turnstile wrapper should differ.
 
 ## 8. Added after the comparison (24 Oct 2026)
 

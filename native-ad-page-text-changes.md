@@ -75,7 +75,7 @@
 2. **Page name and address:** the name is "Native Promo". The main-site address is `/promo/2026/paps-native` (see section C).
 3. **Second heading alignment:** centered, as decided.
 4. **Page title and meta text:** both now read "Native Promo".
-5. **Form intro wording on the main page (24 Oct 2026):** it reads "2027 Investment Srategy Conversation", with capital S and C. Jeff asked for that capitalization in a later message, so it stays. The spelling "Srategy" (missing "t") is still in the draft and needs a decision.
+5. **Form intro wording on the main page (24 Oct 2026):** it reads "2027 Investment Strategy Conversation", with capital S and C. Jeff asked for that capitalization in a later message, so it stays. The misspelling "Srategy" that was in the first published version was fixed by hand on 24 Oct 2026.
 6. **Search engines (open, no change for now):** the previous promo page has `<meta name="robots" content="noindex">` and the new page does not. Decide before the temporary password is removed.
 
 ## E. Content comparison with the previous promo (24 Oct 2026)
