@@ -83,3 +83,12 @@
 1. **Compared:** `/promo/2026/paps-native` against `/promo/2026/year-end/paps`, both published at 11:30 UTC.
 2. **Result:** the only text differences are Jeff's changes (sections B and C) and the form intro capitalization in D5. The disclosures, the other text blocks, the form fields and the page scripts are identical.
 3. **Other differences:** the author photo link (now our own hosted image, see below) and the stray Turnstile input in the old page's markup.
+
+## F. Final pages and verification (24 Oct 2026)
+
+1. **Pages:** `/promo/2026/native/paps`, `/promo/2026/native/peps` and `/promo/2026/native/pafas`, plus a separate welcome page `/promo/welcome-subscription-native`. The earlier address `/promo/2026/paps-native` now redirects to `/promo/2026/native/paps`.
+2. **Compared with the previous promo** (`/promo/2026/year-end/paps`, `peps`, `pafas`): the only content differences are Jeff's five changes, now including the capitalized "Strategy Conversation" in the order form. Everything else matches, including the disclosures and the form fields.
+3. **Form redirect:** the native forms redirect to `/promo/welcome-subscription-native`.
+4. **Welcome page:** the heading reads: Thank You for Registering for a Complimentary "2027 Investment Strategy Session" with Bryan Perry. Jeff's email spelled "Investment" as "Ivestment"; the page uses the correct spelling. The rest of the page matches the old welcome page, and it keeps `noindex`.
+5. **The three native pages** are identical to each other.
+6. **Still open:** the native pages have no `noindex` (see D6), and the link code and description (D1).
