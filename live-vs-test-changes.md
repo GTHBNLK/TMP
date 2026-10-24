@@ -55,7 +55,15 @@
 3. **A `span`** around the last line of the author role ("Bryan Perry's Private Clients"). It is the only way to put text after the line break with the available tools, and removing it would delete that line.
 4. None of them has a visual effect or a validation problem, so they are left in place.
 
-## 7. Added after the comparison (24 Oct 2026)
+## 7. Edits to the previous promo (24 Oct 2026, draft until published)
+
+1. **Where:** the shared component "Promo: 2026 Year-End", used by all five variations (paps, peps, pafas, parw, pasi). One edit covers all five.
+2. **Author photo:** both the link and the image now point to our hosted image instead of the Google-hosted one.
+3. **Stray Turnstile input:** the `cf-turnstile-response` hidden input is removed. It was copied into the page's code from a rendered page and did nothing.
+4. **Not touched:** the empty `<template>` that holds a leftover Turnstile iframe stays. Webflow's own Turnstile setup on the form is unchanged.
+5. **Check after publishing:** compare the published HTML with the 11:30 UTC copy. Only these two changes should differ.
+
+## 8. Added after the comparison (24 Oct 2026)
 
 1. **Map background:** the native page uses the site's `world-map-background` class plus a `claude-map-y28` combo (multiply blend, scrolling instead of fixed at tablet width and below). The live page has no map layer of this kind.
 2. **Hero and content card:** their backgrounds are `#ffffffcc` and `#ffffffdd`, so the map shows through softly.
